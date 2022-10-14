@@ -183,6 +183,8 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 12px;
+  width: 24px;
+  hight: 24px;
 }
 
 .event-info__icon_type_calendar {
@@ -238,7 +240,7 @@
   left: 319px;
 }
 
-.person_name_burbidge {
+.person_name_burbige {
   top: 96px;
   right: 125px;
 }
@@ -262,7 +264,7 @@
   max-width: 100%;
 }
 
-.person__image_size_l {
+.person__image_size_1 {
   width: 140px;
 }
 

@@ -29,6 +29,8 @@
 }
 
 .nav__links {
+  display:flex;
+  align-items:center;
   list-style: none;
   padding-left: 0;
   margin-top: 8px;

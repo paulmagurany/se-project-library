@@ -103,7 +103,6 @@
   margin: 24px 0 0;
 }
 
-/* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 
 .card {
   background-color: #fff;
@@ -137,8 +136,6 @@
   font-size: 14px;
   line-height: 20px;
   color: #838383;
-  /* Auto margins applied on a flex item automatically extend specified margin to occupy the extra space in the flex container */
-  /* In our case, this pushes the element down to the bottom */
   margin-top: auto;
 }
 

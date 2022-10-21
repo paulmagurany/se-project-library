@@ -2,7 +2,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-  font-family:"Helvetica Neue", "Arial", sans-serif;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -359,14 +359,14 @@
 }
 
 .about {
-  display:flex;
+  display: flex;
   padding: 100px 80px;
   background-color: #1f1f1f;
   color: #fff;
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
-  margin-top:0;
+  margin-top: 0;
 }
 
 .about__title {
@@ -377,7 +377,7 @@
   max-width: 154px;
   margin-left: 0;
   position: relative;
-  column-gap:120px;
+  column-gap: 120px;
 }
 
 .about__content {
@@ -388,6 +388,7 @@
   z-index: 1;
   position: relative;
   gap: 32px;
+  margin-left: 128px;
 }
 
 .about__paragraph {
@@ -474,7 +475,7 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  margin-right: auto;
+  margin-right: 10px;
 }
 
 .footer__copyright {

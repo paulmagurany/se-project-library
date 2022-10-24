@@ -1,3 +1,4 @@
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -294,7 +295,7 @@
   max-width: 100%;
 }
 
-.person__image_size_l{
+.person__image_size_l {
   width: 140px;
 }
 
@@ -409,13 +410,13 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #fff;
-  padding-top:60px;
-  padding-left:80px;
-  padding-bottom:60px;
-  padding-right:102px;
+  padding-top: 60px;
+  padding-left: 80px;
+  padding-bottom: 60px;
+  padding-right: 102px;
 }
 
-.footer__columns {
+.footer__column {
   min-height: 224px;
   display: flex;
   align-items: flex-start;
@@ -434,11 +435,13 @@
   color: white;
   display: flex;
   flex-direction: column;
+  margin-left: auto;
 }
 
 .footer__logo {
   width: 116px;
   height: 21px;
+  margin-right: auto;
 }
 
 .footer__list {
@@ -453,7 +456,7 @@
 
 .footer__column-heading {
   color: white;
-  margin: 0 0 20px;
+  margin: 0 0 4px;
   font-size: 16px;
 }
 
@@ -475,7 +478,6 @@
 
 .footer__copyright {
   color: white;
-  position: relative;
   bottom: 60px;
   left: 60px;
 }

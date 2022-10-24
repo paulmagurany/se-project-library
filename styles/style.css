@@ -33,7 +33,7 @@
 }
 
 .nav__links {
-  list-style-type: style none;
+  list-style-type: none;
   display: flex;
   align-items: center;
   list-style: none;
@@ -68,7 +68,7 @@
   position: absolute;
   max-width: 636px;
   top: 135px;
-  right: 25px;
+  right: 20px;
 }
 
 .header__footer {
@@ -242,6 +242,7 @@
 }
 
 .events__more:hover {
+  text-color: #1f69c9;
 }
 
 .events__cover {
@@ -265,7 +266,6 @@
 }
 
 .person_name_feynman {
-  position: absolute;
   top: -30px;
   left: 319px;
 }
@@ -294,7 +294,7 @@
   max-width: 100%;
 }
 
-.person__image_size_1 {
+.person__image_size_l{
   width: 140px;
 }
 
@@ -376,27 +376,22 @@
   z-index: 1;
   max-width: 154px;
   margin-left: 0;
-  position: relative;
-  column-gap: 120px;
 }
 
 .about__content {
+  display: flex;
+  flex-direction: column;
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
   z-index: 1;
-  position: relative;
   gap: 32px;
   margin-left: 128px;
 }
 
 .about__paragraph {
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  margin-bottom: 32px;
 }
 
 .about__circle {
@@ -414,7 +409,10 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #fff;
-  padding: 60px 80px;
+  padding-top:60px;
+  padding-left:80px;
+  padding-bottom:60px;
+  padding-right:102px;
 }
 
 .footer__columns {
@@ -422,9 +420,6 @@
   display: flex;
   align-items: flex-start;
   flex-direction: row;
-  padding-top: 60px;
-  padding-left: 80px;
-  padding-right: 80px;
   column-gap: 100px;
 }
 

@@ -125,9 +125,9 @@
   max-width: 760px;
   justify-content: space-between;
   gap: 40px;
-  margin-top: 0px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 68px;
+  margin-left: 0;
+  margin-right: 0;
   list-style: none;
 }
 
@@ -374,7 +374,8 @@
   font-weight: 500;
   z-index: 1;
   max-width: 154px;
-  margin-left: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .about__content {
@@ -420,9 +421,9 @@
   align-items: flex-start;
   flex-direction: row;
   column-gap: 100px;
-  margin-left: 80px;
 }
-.footer__columm {
+
+.footer__column {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -470,7 +471,7 @@
 
 .footer__copyright {
   color: white;
-  margin-bottom: 60px;
-  margin-left: 60px;
-  margin-top: auto;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
 }

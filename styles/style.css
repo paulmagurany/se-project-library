@@ -124,8 +124,6 @@
   flex-wrap: wrap;
   max-width: 760px;
   justify-content: space-between;
-  align-items: center;
-  list-style: none;
   gap: 40px;
   margin-top: 68px;
   margin-left: auto;
@@ -421,26 +419,20 @@
   align-items: flex-start;
   flex-direction: row;
   column-gap: 100px;
+  margin-left:80px;
 }
+.footer__columm {
+  display: flex;
+  flex-direction: column;
+  
 
 .footer__column_content_hours {
-  color: white;
-  display: flex;
-  flex-direction: column;
   margin-left: auto;
-}
-
-.footer__column_content_social {
-  color: white;
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-}
-
+  }
+  
 .footer__logo {
   width: 116px;
   height: 21px;
-  margin-right: auto;
 }
 
 .footer__list {
@@ -477,7 +469,8 @@
 
 .footer__copyright {
   color: white;
-  bottom: 60px;
-  left: 60px;
+  margin-bottom: 60px;
+  margin-left: 60px;
+  margin-top:auto;
 }
 

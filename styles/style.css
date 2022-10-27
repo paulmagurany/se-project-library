@@ -120,14 +120,15 @@
 
 .staff__cards {
   display: flex;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   flex-wrap: wrap;
   max-width: 760px;
   justify-content: space-between;
   gap: 40px;
-  margin-top: 68px;
+  margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
+  list-style: none;
 }
 
 .card {
@@ -419,17 +420,17 @@
   align-items: flex-start;
   flex-direction: row;
   column-gap: 100px;
-  margin-left:80px;
+  margin-left: 80px;
 }
 .footer__columm {
   display: flex;
   flex-direction: column;
-  
+  justify-content: space-between;
+}
 
 .footer__column_content_hours {
   margin-left: auto;
-  }
-  
+}
 .footer__logo {
   width: 116px;
   height: 21px;
@@ -471,6 +472,5 @@
   color: white;
   margin-bottom: 60px;
   margin-left: 60px;
-  margin-top:auto;
+  margin-top: auto;
 }
-
